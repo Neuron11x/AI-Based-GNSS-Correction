@@ -18,7 +18,7 @@ build/
 *.egg
 
 # ── Models (too large for GitHub — use Git LFS or store separately) ──
-*.pkl
+
 *.h5
 *.hdf5
 *.joblib

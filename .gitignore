@@ -1,0 +1,87 @@
+# ── Python / Backend ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Models (too large for GitHub — use Git LFS or store separately) ──
+*.pkl
+*.h5
+*.hdf5
+*.joblib
+*.model
+*.bin
+
+# ── Environment variables ─────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# ── Node / Frontend ───────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+frontend/build/
+frontend/dist/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+*.out
+
+# ── Data files (usually too large) ────────────────────────────
+*.csv
+*.zip
+*.tar.gz
+*.rar
+data/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Coverage / Testing ────────────────────────────────────────
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.pytest_cache/

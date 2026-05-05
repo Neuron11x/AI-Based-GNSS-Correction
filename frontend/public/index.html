@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GNSS AI Correction · GLA University</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+      *{margin:0;padding:0;box-sizing:border-box;}
+      body{background:#f4f6fb;overflow-x:hidden;}
+      #root{min-height:100vh;}
+      .leaflet-container{font-family:'JetBrains Mono',monospace;z-index:0;}
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Leaflet loaded AFTER root div, before React bundle -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  </body>
+</html>
